@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bulid": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nsr7t/new-website.git",
-    "bulid": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    "url": "git+https://github.com/nsr7t/new-website.git"
   },
   "keywords": [],
   "author": "Nasrat",
