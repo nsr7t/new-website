@@ -1,0 +1,25 @@
+{
+  "name": "new-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsr7t/new-website.git",
+    "bulid": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "Nasrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsr7t/new-website/issues"
+  },
+  "homepage": "https://github.com/nsr7t/new-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
