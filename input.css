@@ -5,3 +5,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.url {
+    background-image: url(../images/bg-hero-desktop.svg);
+}
+.card {
+    @apply flex justify-between shadow-lg hover:shadow-xl transition-all duration-200 bg-yellow-50 rounded-lg p-12
+}
+.zindex {
+    position: relative;
+    overflow: hidden;
+     z-index: 100;
+     
+}
+
+.whit {
+    background-color: #f6f4f9;
+}
