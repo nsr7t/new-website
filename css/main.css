@@ -585,12 +585,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-10{
-  gap: 2.5rem;
-}
-
 .gap-20{
   gap: 5rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]){
@@ -839,16 +839,34 @@ video {
     margin-right: 0px;
   }
 
-  .xs\:flex{
-    display: flex;
-  }
-
   .xs\:flex-col{
     flex-direction: column;
   }
 
   .xs\:flex-col-reverse{
     flex-direction: column-reverse;
+  }
+
+  .xs\:p-4{
+    padding: 1rem;
+  }
+
+  .xs\:p-2{
+    padding: 0.5rem;
+  }
+
+  .xs\:p-1{
+    padding: 0.25rem;
+  }
+
+  .xs\:px-9{
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .xs\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 }
 
@@ -884,10 +902,6 @@ video {
     margin-right: 10rem;
   }
 
-  .md\:flex{
-    display: flex;
-  }
-
   .md\:hidden{
     display: none;
   }
@@ -903,21 +917,19 @@ video {
   .md\:gap-20{
     gap: 5rem;
   }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px){
-  .lg\:flex{
-    display: flex;
-  }
-
-  .lg\:justify-between{
-    justify-content: space-between;
-  }
-
-  .lg\:gap-20{
-    gap: 5rem;
-  }
-
   .lg\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -926,25 +938,5 @@ video {
   .lg\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:justify-between{
-    justify-content: space-between;
-  }
-
-  .xl\:gap-20{
-    gap: 5rem;
-  }
-}
-
-@media (min-width: 1536px){
-  .\32xl\:justify-between{
-    justify-content: space-between;
-  }
-
-  .\32xl\:gap-20{
-    gap: 5rem;
   }
 }
